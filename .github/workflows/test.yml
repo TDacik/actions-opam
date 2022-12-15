@@ -6,7 +6,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    container: ocaml/opam:ubuntu-20.04
+    container: ocaml/opam:ubuntu-20.04-ocaml-4.12
 
     steps:
       - name: Checkout repository
